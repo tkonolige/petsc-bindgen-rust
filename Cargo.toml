@@ -5,11 +5,11 @@ authors = ["Tristan Konolige <tristan.konolige@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-mpi = { path = "/Users/tristan/Build/rsmpi" }
+mpi = {git = "https://github.com/rsmpi/rsmpi.git", rev = "4f07e74"}
 
 [build-dependencies]
-bindgen = "0.50"
-pkg-config = "0.3.16"
+bindgen = "*"
+pkg-config = "*"
 quote = "1.0"
 multimap = "*"
 
